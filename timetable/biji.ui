@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>biji</class>
+ <widget class="QWidget" name="biji">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>795</width>
+    <height>625</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>651</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>记录笔记前记得一定要选择文件路径哦~</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SaveFile">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存笔记</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>40</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空笔记</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SelectFile">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>580</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择文件</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_FilePath">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>580</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>580</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择文件路径</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

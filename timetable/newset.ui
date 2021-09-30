@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewSet</class>
+ <widget class="QWidget" name="NewSet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>736</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>491</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="course">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="courseIn">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>课程名称</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="colorSelect">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>130</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>课程颜色</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="subject_place">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>80</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>课程地点</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="color">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>610</y>
+     <width>491</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="deleteIt">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ok">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>20</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QComboBox" name="day">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>280</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+                           border :  1px  solid  gray ;
+                           border-radius:  5px ;
+                           padding :  1px  2px  1px  2px ;
+                           min-width :  9em ;
+                      }
+                      QComboBox::drop-down {
+                           subcontrol- position :  top  right ;
+                           width :  20px ;
+                           border-left-width :  1px ;
+                           border-left-color : darkgray;
+                           border-left-style :  solid ; 
+                           border-top-right-radius:  3px ; 
+                           border-bottom-right-radius:  3px ;
+                      }
+                      QComboBox::down-arrow {
+                           width: 15px;
+                           height: 15px;
+                           image:  url(:/new/prefix1/山治桑/down.png);
+                      }</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>点击选择星期</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>周一</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>周二</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>周三</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>周四</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>周五</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>周六</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>周日</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="week">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>430</y>
+     <width>141</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>320</y>
+     <width>431</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page"/>
+   <widget class="QWidget" name="page_1"/>
+   <widget class="QWidget" name="page_2"/>
+   <widget class="QWidget" name="page_3"/>
+   <widget class="QWidget" name="page_4"/>
+   <widget class="QWidget" name="page_5"/>
+   <widget class="QWidget" name="page_6"/>
+   <widget class="QWidget" name="page_7"/>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>460</y>
+     <width>451</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chooseall">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>430</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>山治桑/sea.jpg</file>
+        <file>山治桑/plus.png</file>
+        <file>山治桑/last.jpg</file>
+        <file>山治桑/next.png</file>
+        <file>山治桑/last.png</file>
+        <file>山治桑/plate2.png</file>
+        <file>山治桑/book2.png</file>
+        <file>山治桑/pen2.png</file>
+        <file>山治桑/checkbox_white.png</file>
+        <file>山治桑/checkbox_blue.png</file>
+        <file>山治桑/down.png</file>
+        <file>山治桑/blue_border.png</file>
+        <file>山治桑/blue1.jpg</file>
+        <file>山治桑/chooseAll.png</file>
+        <file>山治桑/no.png</file>
+        <file>山治桑/ok.png</file>
+        <file>山治桑/where.png</file>
+        <file>山治桑/delete.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2"/>
+</RCC>
